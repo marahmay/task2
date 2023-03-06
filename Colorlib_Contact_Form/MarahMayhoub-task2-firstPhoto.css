@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4cb050;
+}
+
+.container {
+    width: 400px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 75px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 5px 5px #4c8d4d;
+    font-family: cursive;
+}
+
+.container h1,h4 {
+    color: #a0a4a4;
+    margin: 10px 0;
+    display: block;
+}
+
+.form-input {
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    border: 1px solid #dadada;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #dadada;
+    font-family: cursive;
+}
+
+.form-input:hover {
+    box-shadow: 1px 1px 2px 2px #4c8d4d;
+    cursor: pointer;
+}
+
+.form-textarea {
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 10px 0;
+    border: 1px solid #dadada;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #dadada;
+    font-family: cursive;
+}
+
+.form-textarea:hover {
+    box-shadow: 1px 1px 2px 2px #4c8d4d;
+    cursor: pointer;
+}
+
+.submit-button {
+    width: 350px;
+    padding: 10px;
+    background-color: #4cb050;
+    border: 1px solid #4cb050;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #4cb050;
+    border: none;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(66, 77, 75);
+}
+
+.link {
+    padding: 20px 100px;
+    color: #a0a4a4;
+    font-weight: bold;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(66, 77, 75);
+}
+
+.link a:hover {
+    color: red;
+}
